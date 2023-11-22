@@ -1,4 +1,4 @@
-const fetch = require('node-fetch');
+const fetch = require('node-fetch').default;
 
 // Função para fazer a requisição GET à URL
 const pingURL = async () => {
